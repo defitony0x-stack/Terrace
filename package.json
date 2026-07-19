@@ -1,0 +1,17 @@
+{
+  "name": "terrace-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Live football commentary for Telegram groups, powered by the MomentMarket backend's public API and moment webhook.",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "grammy": "^1.30.0"
+  }
+}
